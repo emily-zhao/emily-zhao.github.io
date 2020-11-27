@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet"
       href='https://fonts.googleapis.com/css?family=Varela+Round|Open Sans'>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <style>
       body{
         font-family: 'Varela Round', serif;
@@ -20,7 +20,7 @@
       }
     </style>
     <title>Emily Zhao</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
   </head>
 
   <body id="particles-js">
@@ -52,13 +52,22 @@
           <li>Summer Technology Camp Instructor @ Tech Corps (June 2018 - Aug 2018)</li>
           <li>Tutor for Invitation to Computing, Tour guide, and Student Recruiting Assistant @ CSU </li>
           <li>World's okay-est violinist @ CSU Symphony Orchestra (first 2 years @ CSU)</li>
-          <li>Hackathoning since 2019 -- win streak going strong</li>
+          <li>Hackathoning since 2019</li>
         </ul>
 
       </div>
     </section>
     <section id="experience">
       <div class="container">
+        <h2> Check out my portfolio below:</h2>
+
+        <button id = "portfolio" class="btn btn-outline-light buttonTop" type = "portfolio" style = "margin: 5px">Portfolio</button>
+            <script type="text/javascript">
+              document.getElementById("portfolio").onclick = function() {
+                location.href = "portfolio.html";
+              };
+            </script>
+
         <h4> Also really into cats, mediocre tennis, photography, and trying to get people to jam on the violin with me </h4>
           <form class="logo animated bounceInUp delay" action="https://twitter.com/emilyzhao_">
             <input type="image" src="./img/twitterlogoW.png" alt="Twitter" width="60" height="60">
@@ -69,9 +78,7 @@
           <form class="logo animated bounceInUp delay" action="https://github.com/emily-zhao">
             <input type="image" src="./img/githublogoW.svg" alt="Github" width="60" height="60">
           </form>
-        <nav>
 
-        </nav>
     </section>
     <!--div id="particle-container"
         <div class="particle"></div>

@@ -1,9 +1,6 @@
-h1 { clear: left }
-
-
 body{
   margin:2;
-  background-color: #0154B3/*#ffffff*/ ;
+  background-color: #000000/*#ffffff*/ ;
   /*position: absolute;*/
 }
 
@@ -28,7 +25,7 @@ h1{
 }
 /*Header */
 header{
-  background:#013F85;
+  background:#2e2d2d; /*GRAY*/
   color:#FFFFFF;
   min-height:60px;
 }
