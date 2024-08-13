@@ -1,6 +1,6 @@
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
+title:               Emily Zhao
+tagline:             'hello world!'
 description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
@@ -9,9 +9,9 @@ permalink:           pretty
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Emily Zhao
+  url:               https://twitter.com/emilyspixels
+  email:             emily.zhao23@gmail.com
 
 # Gems
 plugins:
